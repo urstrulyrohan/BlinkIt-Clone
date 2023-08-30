@@ -1,0 +1,193 @@
+@media only screen and (min-width:950px) and (max-width:1150px){
+    :root{
+        font-size: 50%;
+    }
+}
+
+@media only screen and (min-width:690px) and (max-width:949px){
+    :root{
+        font-size: 50%;
+    }
+
+    .navbar .logo,
+    .navbar .cart{
+        display: none;
+
+    }
+
+    .header{
+        height: 12rem;
+        /* border:2px solid red; */
+        padding-top: 1.5rem;
+    }
+
+    .header .navbar{
+        /* border: 2px solid; */
+        position: relative;
+        height: 100%;
+        padding: 1rem;
+    }
+
+    .navbar .search-bar{
+        position: absolute;
+        bottom:.4rem;
+        width:96%;
+        
+    }
+
+    .navbar .location,
+    .navbar .login{
+        position: relative;
+        bottom:3rem;
+    }
+
+    .navbar .login{
+        margin-right: 1rem;
+    }
+
+    /* ------ main--------- */
+
+    
+
+    .main .wrapper{
+        top:0;
+    }
+
+    .wrapper .banner1{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:360px) and (max-width:689px){
+    :root{
+        font-size: 45%;
+    }
+
+    .navbar .logo,
+    .navbar .cart{
+        display: none;
+
+    }
+
+    .header{
+        height: 12rem;
+        /* border:2px solid red; */
+        padding-top: 1.5rem;
+    }
+
+    .header .navbar{
+        /* border: 2px solid; */
+        position: relative;
+        height: 100%;
+        padding: 1rem;
+    }
+
+    .navbar .search-bar{
+        position: absolute;
+        bottom:.4rem;
+        width:96%;
+        
+    }
+
+    .navbar .location,
+    .navbar .login{
+        position: relative;
+        bottom:3rem;
+    }
+
+    .navbar .login{
+        margin-right: 1rem;
+    }
+
+    /* ------ main--------- */
+
+    
+
+    .main .wrapper{
+        top:0;
+    }
+
+    .wrapper .banner1{
+        display: none;
+    }
+
+    .main .wrapper .categories{
+        /* border:2px solid; */
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+    
+    }
+
+    .main .wrapper .categories .cate-img19,
+    .main .wrapper .categories .cate-img20{
+        display: none;
+    }
+
+
+}
+
+@media only screen and (max-width:359px){
+    :root{
+        font-size: 35%;
+    }
+
+    .navbar .logo,
+    .navbar .cart{
+        display: none;
+
+    }
+
+    .header{
+        height: 12rem;
+        /* border:2px solid red; */
+        padding-top: 1.5rem;
+    }
+
+    .header .navbar{
+        /* border: 2px solid; */
+        position: relative;
+        height: 100%;
+        padding: 1rem;
+    }
+
+    .navbar .search-bar{
+        position: absolute;
+        bottom:.4rem;
+        width:96%;
+        
+    }
+
+    .navbar .location,
+    .navbar .login{
+        position: relative;
+        bottom:3rem;
+    }
+
+    .navbar .login{
+        margin-right: 1rem;
+    }
+
+    /* ------ main--------- */
+
+    
+
+    .main .wrapper{
+        top:0;
+    }
+
+    .wrapper .banner1{
+        display: none;
+    }
+
+    .main .wrapper .categories{
+        /* border:2px solid; */
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    
+    }
+
+
+
+}
